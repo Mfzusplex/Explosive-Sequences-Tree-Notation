@@ -33,7 +33,7 @@ So, here is an example of deconstructing it:
 ```
 [
 \boxed{
-xs(3,3)*3 = \underbrace{
+xs(3,3)phi3 = \underbrace{
 Seq(Seq(Seq(\dots Seq(|<3,3>|,\ |<3,3>|,\ |<3,3>|,\ |<3,3>|)\dots )))
 }*{\varphi(\gamma(3)1 3)[3]\ \text{iterations}}
 }
