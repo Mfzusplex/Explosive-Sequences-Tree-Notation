@@ -29,6 +29,16 @@ Here's an example: `trs(2, 2)₂ = Seq(Seq(2, 2, 2, 2))₂` which is less than `
 
 Finally, the **Explosive Sequence Tree Function** uses the **Infra Notation** and the **Dimensional Phi Notation**:
 `xs(a, b)ₙ = trs(|<a, b>)ϕₙ = Seq(Seq(Seq(... n iterations on |<a, b, a, b, ... n)ϕₙ` where `ϕₙ = ϕ(γ(n)1a)[n]` in **Dimensional Phi Notation**. So this makes an unimaginable amount of iterations on *n* itself. 
+So, here is an example of deconstructing it: 
+```
+[
+\boxed{
+xs(3,3)*3 = \underbrace{
+Seq(Seq(Seq(\dots Seq(|<3,3>|,\ |<3,3>|,\ |<3,3>|,\ |<3,3>|)\dots )))
+}*{\varphi(\gamma(3)1 3)[3]\ \text{iterations}}
+}
+]
+```
 
 ---
 
